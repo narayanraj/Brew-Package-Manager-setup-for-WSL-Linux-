@@ -11,10 +11,10 @@ Brew Package manager setup a new profile in linux for managing software packages
     <br>This will install brew Package manager on linux system. It will create a new profile for installing packages.<br>
 </br>
     2.  Run this set of commands in your terminal to add Homebrew to your PATH:<br>
-    <b> => test -d ~/.linuxbrew && eval "$(~/.linuxbrew/bin/brew shellenv)" </br>
+    <b> <label>=> test -d ~/.linuxbrew && eval "$(~/.linuxbrew/bin/brew shellenv)" </br>
 test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)" </br>
 test -r ~/.bash_profile && echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >>~/.bash_profile </br>
-echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >>~/.profile </b> 
+echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >>~/.profile </label></b> 
       <br><br>
       3. Browse for required Package - lets see nodejs<br>
       <b> command => brew search nodejs </b></br>
